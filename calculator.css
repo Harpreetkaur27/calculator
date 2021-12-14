@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.cantainer {
+    width: 300px;
+    border: 1px black solid;
+    padding: 3px;
+    background-color: gray;
+}
+.cantainer input , #output{
+    width: 100%;
+    outline: none;
+}
+.cantainer button , .cantainer input{
+     height: 60px;
+
+}
+.btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
